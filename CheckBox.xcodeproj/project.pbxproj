@@ -15,6 +15,7 @@
 		D51D250D1D51989100C48D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51D250B1D51989100C48D2C /* LaunchScreen.storyboard */; };
 		D51D25181D51989100C48D2C /* CheckBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D51D25171D51989100C48D2C /* CheckBoxTests.m */; };
 		D51D25231D51989100C48D2C /* CheckBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D51D25221D51989100C48D2C /* CheckBoxUITests.m */; };
+		D51D25321D51997F00C48D2C /* CheckBoxLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D51D25311D51997F00C48D2C /* CheckBoxLable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D51D251E1D51989100C48D2C /* CheckBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51D25221D51989100C48D2C /* CheckBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBoxUITests.m; sourceTree = "<group>"; };
 		D51D25241D51989100C48D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51D25301D51997F00C48D2C /* CheckBoxLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBoxLable.h; sourceTree = "<group>"; };
+		D51D25311D51997F00C48D2C /* CheckBoxLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBoxLable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D51D250B1D51989100C48D2C /* LaunchScreen.storyboard */,
 				D51D250E1D51989100C48D2C /* Info.plist */,
 				D51D24FD1D51989100C48D2C /* Supporting Files */,
+				D51D25301D51997F00C48D2C /* CheckBoxLable.h */,
+				D51D25311D51997F00C48D2C /* CheckBoxLable.m */,
 			);
 			path = CheckBox;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D51D25051D51989100C48D2C /* ViewController.m in Sources */,
+				D51D25321D51997F00C48D2C /* CheckBoxLable.m in Sources */,
 				D51D25021D51989100C48D2C /* AppDelegate.m in Sources */,
 				D51D24FF1D51989100C48D2C /* main.m in Sources */,
 			);
