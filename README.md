@@ -1,15 +1,22 @@
 # CheckBox
+
 ## Instructions
 >CheckBox base on Quartz
+
 ## Show
 ![Alt text](./IMG_0002.jpg)
+
 ## Integration
+
 ### First
+
 >If you want to use , you will only need to drag two core classes into your project and include the header file
 ```objectivec
 #import "CheckBoxLable.h"
 ```
+
 ### Second
+
 >To achieve the following code
 ```objectivec
 @interface ViewController ()<CheckBoxLableDelegate>
@@ -32,5 +39,7 @@ checkBox.delegate = self;
     NSLog(@"查看协议");
 }
 ```
+
 ### Third
+
 >You are success!!! So easy........
