@@ -33,6 +33,11 @@
 {
     if (!_protocolLable) {
         
+        if (checkBoxWidth > 10 || checkBoxHight > 10) {
+            checkBoxHight = 10;
+            checkBoxWidth = 10;
+        }
+        
         _protocolLable = [[UILabel alloc] initWithFrame:CGRectMake(Space * 3 + checkBoxWidth, 0, width - (Space * 3 + checkBoxWidth), heigh)];
         _protocolLable.font = [UIFont systemFontOfSize:10];
         _protocolLable.userInteractionEnabled = YES;
@@ -46,6 +51,11 @@
 
 
 - (void)drawRect:(CGRect)rect {
+    
+    if (checkBoxWidth > 10 || checkBoxHight > 10) {
+        checkBoxHight = 10;
+        checkBoxWidth = 10;
+    }
     
     // Drawing code
     CGContextRef context = UIGraphicsGetCurrentContext();
